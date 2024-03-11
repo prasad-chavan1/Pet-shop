@@ -1,0 +1,1540 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tag
+  -->
+  <title>Kitter - Hight Quality Pet Food</title>
+  <meta name="title" content="Kitter - Hight Quality Pet Food">
+  <meta name="description" content="This is an eCommerce html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="/assets/css/login.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bangers&family=Carter+One&family=Nunito+Sans:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel ="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+  <style>
+    body{
+      font-family: "Poppins", sans-serif;
+    }
+  </style>
+
+</head>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+    <div class="container">
+
+
+
+
+      <section class="home">
+        <div class="form-container">
+          <i class="uil uil-times form_close"></i>
+          <!-- login form -->
+          <div class="form login_form" id="loginForm">
+            <form action="javascript:void(0)">
+          <h2>Login</h2>
+          <div class ="input_box">
+            <input type="email" placeholder="Enter your Email" required id="login_email"/>
+            <i class="uil uil-envelope-alt email"></i>
+          </div>
+          <div class ="input_box">
+            <input type="password" placeholder="Enter your password" required id="login_password"/>
+            <i class="uil uil-lock password"></i>
+            <i class="uil uil-eye-slash pw_hide"></i>
+          </div>
+          <div class="option_field">
+            <span class="checkbox">
+              <input type="checkbox" id="check">
+              <GERMAN SHEPHERDel for="check">Remember me</GERMAN SHEPHERDel>
+            </span>
+            <a href="#" class="forgot_pw" id="forgotPasswordBtn">Forget password?</a>
+          </div>
+          <button class="button" id="loginBtn">Login Now</button>
+          <!-- <p>or</p> --><hr>
+          <div class="googleBtn googleloginbutton googlelogoutbutton" id="googleSignInButton" >Continue With Google</div>
+          <div class="login_signup">
+            Don't have an account? <a href="#" id="signup">SignUp</a>
+          </div>
+        </form>
+        </div>
+        <!--signUP-->
+        <div class="form signup_form" id="signupForm">
+          <form action="#">
+            <h2>Signup</h2>
+            <div class="input_box">
+              <input type="email" placeholder="Enter your Email" required id="signup_email">
+              <i class="uil uil-envelope-alt email"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Create password" required id="signup_password">
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+            <div class="input_box">
+              <input type="password" placeholder="Confirm password" required>
+              <i class="uil uil-lock password"></i>
+              <i class="uil uil-eye-slash pw_hide"></i>
+            </div>
+          
+            <button class="button" id="signupBtn">SignUp Now</button>
+            <div class="login_signup">
+              Already have an account? <a href="#" id="login">Login</a>
+            </div>
+          </form>
+        </div>
+        
+        </div>
+      </section>
+
+      <button class="nav-toggle-btn" aria-GERMAN SHEPHERDel="toggle manu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true" class="menu-icon"></ion-icon>
+        <ion-icon name="close-outline" aria-GERMAN SHEPHERDel="true" class="close-icon"></ion-icon>
+      </button>
+
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#shop" class="navbar-link" data-nav-link>Shop</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Collections</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Blogs</a>
+          </li>
+
+          <li class="navbar-item">
+            <a href="#" class="navbar-link" data-nav-link>Contact</a>
+          </li>
+
+        </ul>
+
+        <a href="#" class="navbar-action-btn">Log In</a>
+      </nav>
+
+
+
+
+
+      <div class="header-actions">
+
+        <button class="action-btn" aria-GERMAN SHEPHERDel="Search">
+          <ion-icon name="search-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn user" id="form-open" aria-GERMAN SHEPHERDel="User">
+          <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <button class="action-btn" aria-GERMAN SHEPHERDel="cart">
+          <ion-icon name="bag-handle-outline" aria-hidden="true"></ion-icon>
+
+          <span class="btn-badge">0</span>
+        </button>
+
+      </div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+
+      
+
+      <section class="section hero has-bg-image" id="home" aria-GERMAN SHEPHERDel="home"
+        style="background-image: url('./assets/images/ho.jpg')">
+        <div class="container">
+
+          <h1 class="h1 hero-title">
+            <span class="span"></span>
+          </h1>
+<!-- 
+          <p class="hero-text">Sale up to 40% off today</p>
+
+          <a href="#" class="btn">Shop Now</a> -->
+
+        </div>
+      </section>
+      <!-- moving line -->
+      <div id="page2">
+        <div id="moving-text">
+            <div class="con">
+                <h1>BEAGLE</h1>
+                <h1>GERMAN SHEPHERD</h1>
+                <div id="gola"></div>
+                <h1>GOLEDEN RETRIVER</h1>
+                <div id="gola"></div>
+                <h1>GREAT DANE</h1>
+                <div id="gola"></div>
+                <h1>PERSIAN CATS</h1>
+                <div id="gola"></div>
+                <h1>BRITISH CATS</h1>
+                <div id="gola"></div>
+                <h1>BEAGLE</h1>
+                <div id="gola"></div>
+                <h1>GERMAN SHEPHERD</h1>
+                <div id="gola"></div>
+                <h1>BULL DOG</h1>
+                <div id="gola"></div>
+            </div>
+            <!-- <div class="con">
+                <h1>BEAGLE</h1>
+                <div id="gola"></div>
+                <h1>CONTENT</h1>
+                <div id="gola"></div>
+                <h1>ENVIRONMENTS</h1>
+                <div id="gola"></div>
+            </div>
+            <div class="con">
+                <h1>BEAGLE</h1>
+                <div id="gola"></div>
+                <h1>CONTENT</h1>
+                <div id="gola"></div>
+                <h1>ENVIRONMENTS</h1>
+                <div id="gola"></div>
+            </div> -->
+        </div>
+    </div>
+
+   
+  
+    <!-- SLIDERS -->
+    <div class="sliders">
+      <div>
+        <span>discover</span>
+        <h1>Our Top Catergories</h1>
+        <hr>
+        <p>Discover the epitome of companionship in our top pet categories. From the unwavering loyalty of dogs to the colorful chatter of parrots, each brings a unique charm to your home. Whether you're drawn to the regal grace of cats, the tranquil beauty of fish, or the exotic allure of reptiles, our selection promises to delight every pet enthusiast. Explore our diverse offerings and find the perfect companion to bring joy and warmth into your life.</p>
+        <a href="#">Explore More</a>
+      </div>
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide swiper-slide--one">
+            <div>
+              <h2>BEGAL</h2>
+              <p>The Bengal dog, a charming crossbreed of Boxer and Beagle, boasts a lively personality and striking coat. With boundless energy and a friendly disposition, they make delightful companions for active households.</p>
+              <a href="https://img.freepik.com/premium-photo/funny-cute-beagle-dog-run-soft-pastel-yellow-background-ai-generative_407474-7481.jpg" target="_blank">explore</a>
+            </div>
+          </div>
+          <div class="swiper-slide swiper-slide--two">
+            <div>
+              <h2>GERMAN SHEPHERD</h2>
+              <p>
+                The German Shepherd, known for its loyalty and intelligence, is a versatile and confident breed. With a noble appearance and protective nature, they excel as both devoted family pets and skilled working dogs.
+              </p>
+              <a href="https://img.freepik.com/premium-photo/funny-cute-beagle-dog-run-soft-pastel-yellow-background-ai-generative_407474-7481.jpg" target="_blank">explore</a>
+            </div>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--three">
+    
+            <div>
+              <h2>PARROT</h2>
+              <p>
+                
+Pet parrots, vibrant and intelligent, bring color and charm into homes with their playful personalities. Known for their ability to mimic speech and bond closely with their owners, they add joy and companionship to any household.
+              </p>
+              <a href="https://c1.wallpaperflare.com/preview/178/661/110/cockatiel-bird-yellow-parakeet.jpg" target="_blank">explore</a>
+            </div>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--four">
+    
+            <div>
+              <h2>GREAT DANE</h2>
+              <p>
+                Great Danes, majestic and gentle giants, exude elegance and loyalty. With their imposing stature and affectionate nature, they make remarkable companions, blending grace with companionship in a larger-than-life package.
+              </p>
+              <a href="/assets/images/greatdane.png" target="_blank">explore</a>
+            </div>
+          </div>
+    
+          <div class="swiper-slide swiper-slide--five">
+    
+            <div>
+              <h2>BULL DOG</h2>
+              <p>
+                
+Bulldogs, with their distinctive wrinkled face and sturdy build, embody strength and resilience. Despite their tough appearance, they're incredibly affectionate and make loyal companions, adding a dash of charm to any household.
+              </p>
+              <a href="https://en.wikipedia.org/wiki/Dolphin" target="_blank">explore</a>
+            </div>
+          </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+      </div>
+      <img src="https://cdn2.vectorstock.com/i/1000x1000/01/71/background-with-dog-paw-print-and-bone-vector-21320171.jpg" alt="" class="bg">
+      <img src="https://cdn.pixabay.com/photo/2012/04/13/13/57/scallop-32506_960_720.png" alt="" class="bg2">
+    </div>
+
+
+     <!-- TALK ABOUT -->
+   
+     <div class="amazing-dance">
+      <h1>Amazing dance</h1>
+      <div class="main-amazing">
+          <div class="inner-amazing">
+              <img src="https://drools.com/assets/images/ourstory.jpg
+              " alt="">
+          </div>
+
+          <div class="inner-amazing">
+              <div class="amazing-content">
+                  <h1>Amazing dance</h1>
+              <p> Our premier pet emporium, where tails wag and hearts flutter with excitement! Our extensive selection of dogs encompasses a rich tapestry of breeds, each with its own unique charm and allure. From the spirited Beagle to the majestic German Shepherd, we pride ourselves on offering a diverse array of canine companions to suit every lifestyle and preference. But our commitment to furry friends doesn't stop there. We wholeheartedly advocate for adoption, believing that every dog deserves a loving home.</p>
+              <a href="#">Buy Now</a>
+              </div>
+            </div>
+
+      </div>
+  
+      <div class="main-amazing">
+      
+          <div class="inner-amazing">
+              <!-- <div class="amazing-content">
+                  <h1>Amazing dance</h1>
+              <p>Quality pet food is essential for the health and happiness of our beloved companions. At our pet store, we prioritize offering only the finest quality food for your furry friends. Our selection includes a wide range of nutritious options that cater to the diverse dietary needs of dogs, cats, birds, and more.We understand that pets have unique nutritional requirements, which is why we stock premium brands renowned for their commitment to quality ingredients and balanced recipes. From grain-free options to formulas tailored for specific life stages and dietary sensitivities, we have something to suit every pet. Our commitment to quality extends beyond the ingredients to the manufacturing process itself. </a>
+              </div> -->
+              
+          </div>
+          <div class="inner-amazing">
+              <img src="https://drools.com/assets/images/hm-real-ingred1.jpg" alt="">
+          </div>
+      </div>
+  </div>
+
+      <!-- 
+        - #CATEGORY
+      -->
+
+      <section class="section category" aria-GERMAN SHEPHERDel="category">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Top</span> categories
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-1.jpg" width="330" height="300" loading="lazy" alt="Cat Food"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Cat Food</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-2.jpg" width="330" height="300" loading="lazy" alt="Cat Toys"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Cat Toys</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-3.jpg" width="330" height="300" loading="lazy" alt="Dog Food"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Dog Food</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-4.jpg" width="330" height="300" loading="lazy" alt="Dog Toys"
+                    class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Dog Toys</a>
+                </h3>
+
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="category-card">
+
+                <figure class="card-banner img-holder" style="--width: 330; --height: 300;">
+                  <img src="./assets/images/category-5.jpg" width="330" height="300" loading="lazy"
+                    alt="Dog Sumpplements" class="img-cover">
+                </figure>
+
+                <h3 class="h3">
+                  <a href="#" class="card-title">Dog Sumpplements</a>
+                </h3>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+      
+
+
+
+      <!-- 
+        - #OFFERS
+      -->
+
+      <section class="section offer" aria-GERMAN SHEPHERDel="offer">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/offer-banner-1.jpg'); --width: 540; --height: 374;">
+
+                <p class="card-subtitle">Selected Items. Online Only.</p>
+
+                <h3 class="h3 card-title">
+                  Hot Summer <span class="span">Deals</span>
+                </h3>
+
+                <a href="#" class="btn">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/offer-banner-2.jpg'); --width: 540; --height: 374;">
+
+                <p class="card-subtitle">Treats & Grooming</p>
+
+                <h3 class="h3 card-title">
+                  Spoil your true <span class="span">love</span>
+                </h3>
+
+                <a href="#" class="btn">Read More</a>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="offer-card has-bg-image img-holder"
+                style="background-image: url('./assets/images/offer-banner-3.jpg'); --width: 540; --height: 374;">
+
+                <p class="card-subtitle">Our Brand You Will Love</p>
+
+                <h3 class="h3 card-title">
+                  New in this <span class="span">year</span>
+                </h3>
+
+                <a href="#" class="btn">Read More</a>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PRODUCT
+      -->
+
+      <section class="section product" id="shop" aria-GERMAN SHEPHERDel="product">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Best</span> Seller
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/product-1.jpg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover default">
+                  <img src="./assets/images/product-1_0.jpg" width="360" height="360" loading="lazy"
+                    alt="Commodo leo sed porta" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-GERMAN SHEPHERDel="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(1)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Commodo leo sed porta</a>
+                  </h3>
+
+                  <data class="card-price" value="15">$15.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/product-2.jpg" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover default">
+                  <img src="./assets/images/product-2_0.jpg" width="360" height="360" loading="lazy"
+                    alt="Purus consequat congue sit" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-GERMAN SHEPHERDel="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Purus consequat congue sit</a>
+                  </h3>
+
+                  <data class="card-price" value="45">$45.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/product-3.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="./assets/images/product-3_0.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-GERMAN SHEPHERDel="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Morbi vel arcu scelerisque</a>
+                  </h3>
+
+                  <data class="card-price" value="45">$45.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/product-4.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="./assets/images/product-4_0.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-GERMAN SHEPHERDel="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Morbi vel arcu scelerisque</a>
+                  </h3>
+
+                  <data class="card-price" value="49">$49.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/product-5.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover default">
+                  <img src="./assets/images/product-5_0.jpg" width="360" height="360" loading="lazy"
+                    alt="Morbi vel arcu scelerisque" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-GERMAN SHEPHERDel="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Morbi vel arcu scelerisque</a>
+                  </h3>
+
+                  <data class="card-price" value="85">$85.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/product-6.jpg" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover default">
+                  <img src="./assets/images/product-6_0.jpg" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-GERMAN SHEPHERDel="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Nam justo libero porta ege</a>
+                  </h3>
+
+                  <data class="card-price" value="85">$85.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/product-7.jpg" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover default">
+                  <img src="./assets/images/product-7_0.jpg" width="360" height="360" loading="lazy"
+                    alt="Nam justo libero porta ege" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-GERMAN SHEPHERDel="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Nam justo libero porta ege</a>
+                  </h3>
+
+                  <data class="card-price" value="85">$85.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="product-card">
+
+                <div class="card-banner img-holder" style="--width: 360; --height: 360;">
+                  <img src="./assets/images/product-8.jpg" width="360" height="360" loading="lazy"
+                    alt="Etiam commodo leo sed" class="img-cover default">
+                  <img src="./assets/images/product-8_0.jpg" width="360" height="360" loading="lazy"
+                    alt="Etiam commodo leo sed" class="img-cover hover">
+
+                  <button class="card-action-btn" aria-GERMAN SHEPHERDel="add to card" title="Add To Card">
+                    <ion-icon name="bag-add-outline" aria-hidden="true"></ion-icon>
+                  </button>
+                </div>
+
+                <div class="card-content">
+
+                  <div class="wrapper">
+                    <div class="rating-wrapper gray">
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                      <ion-icon name="star" aria-hidden="true"></ion-icon>
+                    </div>
+
+                    <span class="span">(0)</span>
+                  </div>
+
+                  <h3 class="h3">
+                    <a href="#" class="card-title">Etiam commodo leo sed</a>
+                  </h3>
+
+                  <data class="card-price" value="55">$55.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-GERMAN SHEPHERDel="service">
+        <div class="container">
+
+          <img src="./assets/images/service-image.png" width="122" height="136" loading="lazy" alt="" class="img">
+
+          <h2 class="h2 section-title">
+            <span class="span">What your pet needs,</span> when they need it.
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-1.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 class="h3 card-title">Free Same-Day Delivery</h3>
+
+                <p class="card-text">
+                  Order by 2pm local time to get free delivery on orders $35+ today.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-2.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 class="h3 card-title">30 Day Return</h3>
+
+                <p class="card-text">
+                  35% off your first order plus 5% off all future orders.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-3.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 class="h3 card-title">Security payment</h3>
+
+                <p class="card-text">
+                  25% off your online order of $50+. AvaiGERMAN SHEPHERDle at most locations.
+                </p>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="service-card">
+
+                <figure class="card-icon">
+                  <img src="./assets/images/service-icon-4.png" width="70" height="70" loading="lazy"
+                    alt="service icon">
+                </figure>
+
+                <h3 class="h3 card-title">24/7 Support</h3>
+
+                <p class="card-text">
+                  Shop online to get orders over $35 shipped fast and free.
+                </p>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta has-bg-image" aria-GERMAN SHEPHERDel="cta" style="background-image: url('./assets/images/cta-bg.jpg')">
+        <div class="container">
+
+          <figure class="cta-banner">
+            <img src="./assets/images/cta-banner.png" width="900" height="660" loading="lazy" alt="cat" class="w-100">
+          </figure>
+
+          <div class="cta-content">
+
+            <img src="./assets/images/cta-icon.png" width="120" height="35" loading="lazy" alt="taste guarantee"
+              class="img">
+
+            <h2 class="h2 section-title">Taste it, love it or we’ll replace it… Guaranteed!</h2>
+
+            <p class="section-text">
+              At Petio, we believe your dog and cat will love their food so much that if they don’t … we’ll help you
+              find a
+              replacement. That’s our taste guarantee.
+            </p>
+
+            <a href="#" class="btn">Find out more</a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BRAND
+      -->
+
+      <section class="section brand" aria-GERMAN SHEPHERDel="brand">
+        <div class="container">
+
+          <h2 class="h2 section-title">
+            <span class="span">Popular</span> Brands
+          </h2>
+
+          <ul class="has-scrollbar">
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/brand-1.jpg" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/brand-2.jpg" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/brand-3.jpg" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/brand-4.jpg" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+            <li class="scrollbar-item">
+              <div class="brand-card img-holder" style="--width: 150; --height: 150;">
+                <img src="./assets/images/brand-5.jpg" width="150" height="150" loading="lazy" alt="brand logo"
+                  class="img-cover">
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" style="background-image: url('./assets/images/footer-bg.jpg')">
+
+    <div class="footer-top section">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">Kitter</a>
+
+          <p class="footer-text">
+            If you have any question, please contact us at <a href="mailto:support@gmail.com"
+              class="link">support@gmail.com</a>
+          </p>
+
+          <ul class="contact-list">
+
+            <li class="contact-item">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <address class="address">
+                30 Buttonwood St.Pataskala OH 43062
+              </address>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <a href="tel:+16234567891011" class="contact-link">(+1)-6234-56-789-1011</a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-pinterest"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Corporate</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Careers</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Contact Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">FAQs</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Vendors</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Affiliate Program</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Information</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Online Store</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Refund Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Shipping Policy</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Service</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Track Order</a>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Services</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Grooming</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Positive Dog Training</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Veterinary Services</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Petco Insurance</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Pet Adoption</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Resource Center</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2022 Made with ♥ by <a href="#" class="copyright-link">codewithsadee.</a>
+        </p>
+
+        <img src="./assets/images/payment.png" width="397" height="32" loading="lazy" alt="payment method" class="img">
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #BACK TO TOP
+  -->
+
+  <a href="#top" class="back-top-btn" aria-GERMAN SHEPHERDel="back to top" data-back-top-btn>
+    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js" defer></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+    import { getAuth, createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut,GoogleAuthProvider,signInWithPopup,sendPasswordResetEmail} from "https://www.gstatic.com/firebasejs/10.4.0/firebase-auth.js";
+    
+  
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#avaiGERMAN SHEPHERDle-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyCXktaWWHVAap1xl2yDfzvokuq7h1RrJ9s",
+        authDomain: "sqlify-auth.firebaseapp.com",
+        projectId: "sqlify-auth",
+        storageBucket: "sqlify-auth.appspot.com",
+        messagingSenderId: "288226704981",
+        appId: "1:288226704981:web:86c3a3eb8e1b2b06a81edc"
+      };
+  
+  
+    const signupBtn = document.getElementById("signupBtn");
+    const loginBtn = document.getElementById("signupBtn");
+  
+  signupBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    const email = document.querySelector("#signup_email").value;
+    const password = document.querySelector("#signup_password").value;
+  
+    // Create a new user with Firebase Authentication
+    createUserWithEmailAndPassword(auth, email, password)  // Use the 'manualAuth' Firebase instance
+      .then((userCredential) => {
+        // Handle manual signup success
+        const user = userCredential.user;
+        console.log("User signed up:", user);
+        alert("Registration is successful!");
+  
+  
+      })
+      .catch((error) => {
+        // Handle manual signup errors
+        console.error("Signup error:", error.message);
+      });
+  });
+  
+  
+  // Manual login
+  loginBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    const email = document.querySelector("#login_email").value;
+    const password = document.querySelector("#login_password").value;
+  
+    // Sign in with Firebase Authentication
+    signInWithEmailAndPassword(auth, email, password)
+      .then((userCredential) => {
+        // Handle successful login
+        const user = userCredential.user;
+        console.log("User signed in:", user);
+        alert("Login is successful!");
+        document.querySelector('.form_close').click();
+        document.getElementById('loginlink').style.display = 'none';
+        document.getElementById('signoutlink').style.display = 'block';
+  
+        localStorage.setItem('userLoggedIn', 'true');
+      })
+      .catch((error) => {
+        // Handle login errors
+        console.error("Login error:", error.message);
+        alert("Login failed. Please check your credentials.");
+      });
+  });
+  
+  const forgotPasswordBtn = document.getElementById("forgotPasswordBtn");
+  const emailInput = document.querySelector("#login_email"); // or use the appropriate input field
+  
+  forgotPasswordBtn.addEventListener("click", (e) => {
+    e.preventDefault();
+    const email = emailInput.value;
+    const auth = getAuth(app);
+  
+    // Send a password reset email
+  sendPasswordResetEmail(auth, email)
+    .then(() => {
+      // Password reset email sent!
+      console.log("reset link sent on the given email")
+      alert("reset link has been sent!")
+    })
+    .catch((error) => {
+      const errorCode = error.code;
+      const errorMessage = error.message;
+      // ..
+    });
+  });
+  
+  // Attach the signOutUser function to the signout button
+  // signoutlink.addEventListener("click", (e) => {
+  //   e.preventDefault();
+  
+  //   signOut(auth)
+  //     .then(() => {
+  //       localStorage.setItem('userLoggedIn', 'false'); // Update user state
+  //       console.log("User signed out");
+  //       onPageLoadThen(); // Call the function to change the page state
+  //     })
+  //     .catch((error) => {
+  //       console.error("Sign out error:", error.message);
+  //     });
+  // });
+  
+  // Handle Google Sign-In
+  const googleSignInButton = document.getElementById("googleSignInButton");
+  
+  googleSignInButton.addEventListener("click", () => {
+    const provider = new GoogleAuthProvider();
+  
+    signInWithPopup(auth, provider)
+      .then((result) => {
+        // You can access the user information from result.user
+        const credential = GoogleAuthProvider.credentialFromResult(result);
+      const token = credential.accessToken;
+        const user = result.user;
+        alert("Google sign-in success: " + user.displayName);
+      document.querySelector('.form_close').click();
+      document.getElementById('loginlink').style.display='none';
+      document.getElementById('signoutlink').style.display='block';
+      localStorage.setItem('userLoggedIn', 'true');
+      onPageLoadThen(); // Update the UI   
+      })
+      .catch((error) => {
+        console.error("Google sign-in error: ", error.message);
+        const errorCode = error.code;
+      const errorMessage = error.message;
+      // The email of the user's account used.
+      const email = error.customData.email;
+      // The AuthCredential type that was used.
+      const credential = GoogleAuthProvider.credentialFromError(error);
+      alert(errorMessage);
+      });
+  });
+  
+  
+  // // Attach the signOutUser function to the signout button
+  // signoutlink.addEventListener("click", (e) => {
+  //     e.preventDefault();
+  
+  //     signOut(auth)
+  //     .then(() => {
+  //     localStorage.setItem('userLoggedIn', 'false'); // Update user state
+  //     console.log("User signed out");
+  //     onPageLoadThen();
+  //   })
+  //       .catch((error) => {
+  //         console.error("Sign out error:", error.message);
+  //       });
+  //     });
+  
+  //code snippet for changing login/sign in states
+  function onPageLoadThen() {
+    const auth = getAuth();
+    const user = auth.currentUser;
+    const userLoggedIn = localStorage.getItem('userLoggedIn');
+   
+    if (userLoggedIn === 'true') {
+      document.getElementById('loginlink').style.display = 'none';
+      document.getElementById('signoutlink').style.display = 'block';
+    } else {
+      document.getElementById('loginlink').style.display = 'block';
+      document.getElementById('signoutlink').style.display = 'none';
+    
+    }
+  
+  
+  
+  }
+  
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+    const auth = getAuth(app);
+    console.log(app)
+    
+  
+  
+  onPageLoadThen();
+
+  // slider
+  
+(function() {
+
+var slidersContainer = document.querySelector('.sliders-container');
+
+// Initializing the numbers slider
+var msNumbers = new MomentumSlider({
+    el: slidersContainer,
+    cssClass: 'ms--numbers',
+    range: [1, 4],
+    rangeContent: function (i) {
+        return '0' + i;
+    },
+    style: {
+        transform: [{scale: [0.4, 1]}],
+        opacity: [0, 1]
+    },
+    interactive: false
+});
+
+// Initializing the titles slider
+var titles = [
+    'King of the Ring Fight',
+    'Sound of Streets',
+    'Urban Fashion',
+    'Windy Sunset'
+];
+var msTitles = new MomentumSlider({
+    el: slidersContainer,
+    cssClass: 'ms--titles',
+    range: [0, 3],
+    rangeContent: function (i) {
+        return '<h3>'+ titles[i] +'</h3>';
+    },
+    vertical: true,
+    reverse: true,
+    style: {
+        opacity: [0, 1]
+    },
+    interactive: false
+});
+
+// Initializing the links slider
+var msLinks = new MomentumSlider({
+    el: slidersContainer,
+    cssClass: 'ms--links',
+    range: [0, 3],
+    rangeContent: function () {
+        return '<a class="ms-slide__link">View Case</a>';
+    },
+    vertical: true,
+    interactive: false
+});
+
+// Get pagination items
+var pagination = document.querySelector('.pagination');
+var paginationItems = [].slice.call(pagination.children);
+
+// Initializing the images slider
+var msImages = new MomentumSlider({
+    // Element to append the slider
+    el: slidersContainer,
+    // CSS class to reference the slider
+    cssClass: 'ms--images',
+    // Generate the 4 slides required
+    range: [0, 3],
+    rangeContent: function () {
+        return '<div class="ms-slide__image-container"><div class="ms-slide__image"></div></div>';
+    },
+    // Syncronize the other sliders
+    sync: [msNumbers, msTitles, msLinks],
+    // Styles to interpolate as we move the slider
+    style: {
+        '.ms-slide__image': {
+            transform: [{scale: [1.5, 1]}]
+        }
+    },
+    // Update pagination if slider change
+    change: function(newIndex, oldIndex) {
+        if (typeof oldIndex !== 'undefined') {
+            paginationItems[oldIndex].classList.remove('pagination__item--active');
+        }
+        paginationItems[newIndex].classList.add('pagination__item--active');
+    }
+});
+
+// Select corresponding slider item when a pagination button is clicked
+pagination.addEventListener('click', function(e) {
+    if (e.target.matches('.pagination__button')) {
+        var index = paginationItems.indexOf(e.target.parentNode);
+        msImages.select(index);
+    }
+});
+
+})();
+
+  
+  
+  </script>
+    <script src='https://rawgit.com/lmgonzalves/momentum-slider/master/dist/momentum-slider.min.js'></script><script  src="./script.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.5/swiper-bundle.min.js'></script><script  src="./script.js"></script>
+
+
+</body>
+
+</html>
